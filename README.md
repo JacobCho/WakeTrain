@@ -5,8 +5,8 @@ An Android app that displays canoe and kayak races in British Columbia and Washi
 
 ##Screenshots:
 
-![Screenshot1](http://i.imgur.com/benR1Dr.png "Screenshot 1")  
-![Screenshot2](http://i.imgur.com/SyJUvIS.png "Screenshot 2")
+![Screenshot1](http://i.imgur.com/VdWA76z.png "Screenshot 1")  
+![Screenshot2](http://i.imgur.com/ivKvFdr.png "Screenshot 2")
 
 ## Credits:
 
