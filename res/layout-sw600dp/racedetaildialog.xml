@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/flatblue"
+        android:orientation="horizontal">
+        
+    <TextView 
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:text="Super Race"/>
+    "
+	</LinearLayout>
+	
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <RelativeLayout
+         android:id="@+id/descriplayout"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+     	>
+    
+	    <TextView 
+	        android:id="@+id/descriptitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:paddingTop="20dp"
+	        android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="10dp"
+	        android:text="@string/description"
+	        android:textColor="@color/grey"/>
+	    
+	    <TextView
+	        android:id="@+id/description"
+	        android:layout_width="500dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/descriptitle"
+	        android:text="Best race ever"
+	        android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="20dp"
+			android:textColor="@color/grey"
+			/>
+	    
+	    <ImageView
+	        android:id="@+id/webbutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/description"
+	        android:src="@drawable/ic_action_web_site"
+	        android:paddingTop="50dp"
+	        android:visibility="invisible"
+	         />
+	    
+	    </RelativeLayout>
+	    
+    <RelativeLayout
+        android:id="@+id/locationlayout"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/descriplayout"
+     	>
+
+	    <TextView
+	        android:id="@+id/locationtitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:text="@string/location"
+	        android:paddingRight="10dp"
+			android:paddingLeft="20dp"
+			android:paddingBottom="10dp"
+			android:textColor="@color/grey" />
+	
+	    
+	    <TextView
+	        android:id="@+id/location"
+	        android:layout_width="500dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/locationtitle"
+			android:text="Vancouver, BC" 
+			android:paddingRight="20dp"
+			android:paddingLeft="20dp"
+			android:textColor="@color/grey"/>
+	    
+	    <ImageView
+	        android:id="@+id/mapbutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/location"
+	        android:src="@drawable/ic_action_place"
+	        android:paddingTop="30dp"/>
+</RelativeLayout>
+<RelativeLayout
+    	android:id="@+id/timelayout"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/locationlayout"
+     	>
+    
+    <TextView 
+        android:id="@+id/startTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/start_time"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+		android:paddingLeft="20dp"
+		android:paddingBottom="10dp"
+		android:textColor="@color/grey"/>
+    
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startTitle"
+		android:text="7:00pm" 
+		android:paddingBottom="20dp"
+		android:paddingRight="20dp"
+		android:paddingLeft="20dp"
+		android:textColor="@color/grey"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+</LinearLayout>

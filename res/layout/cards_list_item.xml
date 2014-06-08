@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/card_background">
+
+       <ImageView 
+        android:id="@+id/thumb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingRight="5dp"/>
+    
+	    <TextView 
+	        android:id="@+id/titleText"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/thumb"
+	        android:paddingLeft="10dp"
+	        android:text="A surfski race"
+	        android:textColor="@color/grey"
+	       	android:textStyle="bold"/>
+	    
+	    <RelativeLayout
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentRight="true"
+	      android:gravity="right">
+	      
+	    
+	    <TextView 
+	        android:id="@+id/monthText"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="Jan"
+	    	android:singleLine="true"
+	    	android:textColor="@color/grey"
+	    	/>
+	    
+	    <TextView 
+	        android:id="@+id/dateText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/monthText"
+	        android:text="1st"
+	        android:textColor="@color/flatred"
+	        android:textSize="23sp"
+	        android:textStyle="bold"
+	        android:gravity="center"
+	        />
+	    
+	    </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

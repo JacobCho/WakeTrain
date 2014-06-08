@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main">#63C3FF</color>
+    <color name="actionbar_title_color">@android:color/white</color>
+    <color name="flatblue">#3498db</color>
+    <color name="flatgreen">#27ae60</color>
+    <color name="grey">#878787</color>
+    <color name="flatred">#e74c3c</color>
+</resources>
